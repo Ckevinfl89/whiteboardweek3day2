@@ -19,11 +19,22 @@
 # step 3 is the word in the sentence or not 
 # step 4 answer is = "is here" or "not here"
 
-w = 'nest'
-t = 'I built a nest and tested it'
+
+
 def solution(w,t):
     if w in t:
         return "here"
     else: return "not here"
         
-solution(w,t)
+# solution(w,t)
+
+# def solution(w, t):
+#     for word in t.split():
+#         if word == w:
+#             return 'here'
+#         return 'not here'
+    
+    
+    
+# def solution (word, text):
+#     return 'here' if word in text else 'not here'
